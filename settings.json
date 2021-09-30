@@ -1,0 +1,74 @@
+{
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "workbench.preferredDarkColorTheme": "Night Owl",
+    "workbench.colorTheme": "Monokai",
+    "workbench.preferredLightColorTheme": "Monokai",
+    "editor.tabSize": 2,
+    "git.autofetch": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Operator Mono",
+    // Specification of italics, bold, etc done below
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              // The following will be in italic
+              "comment",
+              "constant.language", // String, this, super
+              "keyword", // Import, export, return…
+              "variable.language",
+              "storage.modifier", // Static keyword
+              "storage.type.class.js" // Class keyword
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "scope": [
+              // The following will be bold
+              "invalid",
+              "keyword.other.unit.px.css",
+              "keyword.control",
+              "meta.path",
+              "entity.name.type.class", // Class names
+              "entity.name.function"
+            ],
+            "settings": {
+              "fontStyle": "bold"
+            }
+          },
+          {
+              "scope": [
+                // The following will be excluded from the above (overrides)
+                "keyword.operator"
+              ],
+              "settings": {
+                  "fontStyle": ""
+              }
+          }
+        ]
+    },
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "window.autoDetectColorScheme": true,
+    // Powermode features (causes explosions while you type)
+    "powermode.enabled": true,
+    "powermode.enableShake": false,
+    "powermode.customExplosions": [
+        "https://media.giphy.com/media/xUA7aXJY46jN2P6gGk/giphy.gif", // Star explosion
+        "https://media.giphy.com/media/l0IykOPjEJopboxWw/giphy.gif", // Star pop
+        "https://media.giphy.com/media/3o7btLYqcZhUb2GP16/giphy.gif" // Planet display
+    ],
+    "powermode.explosionOrder": "sequential",
+    "powermode.explosionSize": 12,
+    "powermode.explosionFrequency": 8,
+    "powermode.maxExplosions": 10,
+    "powermode.explosionOffset": 0.215,
+    "powermode.customCss": {
+        "mix-blend-mode": "color-dodge"
+    },
+    "powermode.gifMode": "restart",
+    "powermode.explosionDuration": 1000,
+    "powermode.backgroundMode": "mask"
+}
