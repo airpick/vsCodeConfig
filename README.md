@@ -1,10 +1,10 @@
 # vsCodeConfig
 
 ## Table of Contents
-1. Welcome
-2. Fonts
-3. Terminal
-4. VS Code
+1. [Welcome](#Welcome)
+2. [Fonts](#Fonts)
+3. [Terminal](#Terminal)
+4. [VS Code](#VSCode)
 
 ## Welcome
 Hello, and welcome to my quick and easy 'Pimp Yr VsCode' repo!
@@ -19,7 +19,7 @@ Afterwards, you will need to unzip the file and Open each of the font files with
 This may be a little tedious, but it is a small bit better than having to download this individually just to do the same.
 
 ## Terminal
-xxxREPLACEMExxx
+![iTerm2](https://github.com/airpick/vsCodeConfig/blob/main/Images/iTerm2.png)
 Next, let's set up the following for terminal:
 
 ### Install `oh my zsh`
@@ -43,7 +43,7 @@ This profile is using a custom Color Theme, though many color schemes look good 
 For more on `Color Presets...`, be sure to visit this [page](https://iterm2colorschemes.com/)!
 
 ## VS Code
-xxxREPLACEMExxx
+![VSCode](https://github.com/airpick/vsCodeConfig/blob/main/Images/vsCode.png)
 Finally, we'll pimp out VS Code!
 
 ### Extensions
