@@ -26,7 +26,9 @@ Next, let's set up the following for terminal:
 ### Install `oh my zsh`
 http://ohmyz.sh/
 
-```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ### Download `iTerm2` (Optional)
 https://iterm2.com/
