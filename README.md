@@ -1,10 +1,11 @@
 # vsCodeConfig
 
 ## Table of Contents
-1. [Welcome](#Welcome)
-2. [Fonts](#Fonts)
-3. [Terminal](#Terminal)
-4. [VS Code](#VSCode)
+1. [Welcome](#welcome)
+2. [Fonts](#fonts)
+3. [Terminal](#terminal)
+4. [VS Code](#vs-code)
+5. [Afterwards](#afterwards)
 
 ## Welcome
 Hello, and welcome to my quick and easy 'Pimp Yr VsCode' repo!
@@ -24,6 +25,7 @@ Next, let's set up the following for terminal:
 
 ### Install `oh my zsh`
 http://ohmyz.sh/
+
 ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 
 ### Download `iTerm2` (Optional)
